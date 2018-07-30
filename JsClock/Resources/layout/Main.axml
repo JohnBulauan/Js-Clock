@@ -1,5 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+    android:background="#5b6779">
+    <TableRow>
+        <TextClock
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:padding="30dp"
+            android:textSize="15sp"
+            android:id="@+id/row" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:id="@+id/rows" />
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/androidclock" />
+    </TableRow>
+    <TableRow>
+        <TextClock
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:padding="30dp"
+            android:textSize="15sp"
+            android:background="#00515e"
+            android:id="@+id/row1" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:background="#00515e"
+            android:gravity="center"
+            android:id="@+id/row1s" />
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:background="#00515e"
+            android:src="@drawable/androidclock" />
+    </TableRow>
+    <TableRow>
+    <!-- We have set the timezone for according to the country given
+         We do this by writing android:timeZone="TimeZone/Country" -->
+        <TextClock
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:padding="30dp"
+            android:textSize="15sp"
+            android:id="@+id/row2" />
+    <!-- We add a textview to display the timezone that this
+                clock represents.-->
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/row2s" />
+    <!-- We have added in an image asset of a clock, we declare this
+         by the imageview element and setting the constraints, also assigning
+         the image under android:src="@mipmap/imagename.file:-->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/androidclock" />
+    </TableRow>
+<!-- We keep on adding table rows and its elements to replicate
+            each clock. As this code is repetitive amongst this
+             activity.-->
+    <TableRow>
+        <TextClock
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:padding="30dp"
+            android:textSize="15sp"
+            android:background="#00515e"
+            android:id="@+id/row3" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:background="#00515e"
+            android:gravity="center"
+            android:id="@+id/row3s" />
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:background="#00515e"
+            android:src="@drawable/androidclock" />
+    </TableRow>
+    <TableRow>
+        <TextClock
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:padding="30dp"
+            android:textSize="16sp"
+            android:id="@+id/row4" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:id="@+id/row4s" />
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/androidclock" />
+    </TableRow>
+    <TableRow>
+        <TextClock
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:padding="25dp"
+            android:textSize="15sp"
+            android:background="#00515e"
+            android:id="@+id/row5" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:background="#00515e"
+            android:gravity="center"
+            android:id="@+id/row5s" />
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:background="#00515e"
+            android:src="@drawable/androidclock" />
+    </TableRow>
+    <TableRow>
+    <!-- We are using an image button that will have the function
+            of changing to the next activity. The image of the "+" icon
+            represents adding another timezone, in which the user will
+            be redirected to the next activity which allows them to view
+            the list of countries to choose from. As the overall aim
+            of this project is to focus mainly on the UI and UX, we have
+            used mock data which doesn't have logic behind it.-->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addTimeZone"
+            android:onClick="onClick"
+            android:src="@drawable/cross"
+            android:layout_column="2"
+            style="?android:attr/borderlessButtonStyle" />
+    <!-- ^ this code here allows a borderless button so
+                    it is just the image itself. We have also
+                    changed the onClick properties to allow the
+                    button to commence the next activity. We do
+                    this by adding the intent function which will
+                    be explained in the comments of the MainActivity.java
+                    file-->
+    </TableRow>
+</TableLayout>

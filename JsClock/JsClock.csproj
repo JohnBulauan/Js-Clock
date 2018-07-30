@@ -98,6 +98,11 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\cross.png" />
+    <AndroidResource Include="Resources\drawable\androidclock.jpg" />
+    <AndroidResource Include="Resources\layout\addAClock.axml" />
+    <AndroidResource Include="Resources\layout\land_Main.axml" />
+    <AndroidResource Include="Resources\layout\land_addAClock.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

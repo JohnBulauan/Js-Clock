@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5b6779"
+    android:orientation="vertical">
+<!--    We have used a LinearLayout for this screen. As this screen
+            represents the SecondActivity. This screen shows if the user
+            would like to add more timezones to the application. Where
+            they would be able to click on one of the time zones if we
+            had functionality. As this is only project 1, focusing on
+            the UI and UX, we have shown what it would look like and how
+            the user will interact with the application creating the
+            user experience. We have added a textview as a "toolbar"
+            for this screen, as it is the child screen to the parent.
+            We have also added buttons that display text showing the
+            specific timezone he/she wishes to choose.-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#404040"
+        android:text="Add Timezone"
+        android:textSize="23dp"
+        android:gravity="center_vertical" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="Amsterdam || Netherlands"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:backgroundTint="#00515e"
+        android:id="@+id/btn1"
+        android:onClick="onClick" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="Baltimore || USA"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:backgroundTint="#00515e"
+        android:id="@+id/btn2"
+        android:onClick="onClick" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="Cairo || Egypt"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:backgroundTint="#00515e"
+        android:id="@+id/btn3"
+        android:onClick="onClick" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="Dalian || China"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:backgroundTint="#00515e"
+        android:id="@+id/btn4"
+        android:onClick="onClick" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="Edmonton || Canada"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:backgroundTint="#00515e"
+        android:id="@+id/btn5"
+        android:onClick="onClick" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:text="Florence || Italy"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:backgroundTint="#00515e"
+        android:id="@+id/btn6"
+        android:onClick="onClick" />
+</LinearLayout>
