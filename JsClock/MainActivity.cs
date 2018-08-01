@@ -4,10 +4,10 @@ using Android.OS;
 
 namespace JsClock
 {
-    [Activity(Label = "J's Clock", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "J's Clock", Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
+        
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
