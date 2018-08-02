@@ -19,7 +19,7 @@ namespace JsClock
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.addAClock);
             // Create your application here
         }
     }
