@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="140dp"
             android:layout_height="fill_parent"
-            android:text=""
+            android:text="Melbourne"
             android:textSize="20sp"
             android:fontFamily="monospace"
             android:gravity="center"
@@ -30,11 +30,12 @@
             android:padding="30dp"
             android:textSize="15sp"
             android:background="#00515e"
-            android:id="@+id/row1" />
+            android:id="@+id/row1"
+            android:timeZone="Europe/Amsterdam" />
         <TextView
             android:layout_width="140dp"
             android:layout_height="fill_parent"
-            android:text=""
+            android:text="Amsterdam"
             android:textSize="20sp"
             android:fontFamily="monospace"
             android:background="#00515e"
@@ -54,13 +55,14 @@
             android:layout_height="80dp"
             android:padding="30dp"
             android:textSize="15sp"
-            android:id="@+id/row2" />
+            android:id="@+id/row2"
+            android:timeZone="America/Baltimore" />
     <!-- We add a textview to display the timezone that this
                 clock represents.-->
         <TextView
             android:layout_width="140dp"
             android:layout_height="fill_parent"
-            android:text=""
+            android:text="Baltimore"
             android:fontFamily="monospace"
             android:textSize="20sp"
             android:gravity="center"
@@ -83,11 +85,12 @@
             android:padding="30dp"
             android:textSize="15sp"
             android:background="#00515e"
-            android:id="@+id/row3" />
+            android:id="@+id/row3"
+            android:timeZone="Africa/Cairo" />
         <TextView
             android:layout_width="140dp"
             android:layout_height="fill_parent"
-            android:text=""
+            android:text="Cairo"
             android:textSize="20sp"
             android:fontFamily="monospace"
             android:background="#00515e"
@@ -105,11 +108,12 @@
             android:layout_height="80dp"
             android:padding="30dp"
             android:textSize="16sp"
-            android:id="@+id/row4" />
+            android:id="@+id/row4"
+            android:timeZone="Asia/Dalian" />
         <TextView
             android:layout_width="140dp"
             android:layout_height="fill_parent"
-            android:text=""
+            android:text="Dalian"
             android:textSize="20sp"
             android:fontFamily="monospace"
             android:gravity="center"
@@ -126,11 +130,12 @@
             android:padding="25dp"
             android:textSize="15sp"
             android:background="#00515e"
-            android:id="@+id/row5" />
+            android:id="@+id/row5"
+            android:timeZone="America/Edmonton" />
         <TextView
             android:layout_width="140dp"
             android:layout_height="fill_parent"
-            android:text=""
+            android:text="Edmonton"
             android:textSize="20sp"
             android:fontFamily="monospace"
             android:background="#00515e"

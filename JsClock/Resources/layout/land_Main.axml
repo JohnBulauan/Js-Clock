@@ -18,12 +18,11 @@
                 android:padding="30dp"
                 android:textSize="15sp"
                 android:background="#00515e"
-                android:timeZone="Europe/Paris"
                 android:id="@+id/row3" />
             <TextView
                 android:layout_width="280dp"
                 android:layout_height="fill_parent"
-                android:text="Paris"
+                android:text="Melbourne"
                 android:textSize="20sp"
                 android:fontFamily="monospace"
                 android:background="#00515e"
@@ -41,12 +40,12 @@
                 android:layout_height="wrap_content"
                 android:padding="30dp"
                 android:textSize="16sp"
-                android:timeZone="Asia/Tokyo"
+                android:timeZone="Europe/Amsterdam"
                 android:id="@+id/row4" />
             <TextView
                 android:layout_width="280dp"
                 android:layout_height="fill_parent"
-                android:text="Tokyo"
+                android:text="Amsterdam"
                 android:textSize="20sp"
                 android:fontFamily="monospace"
                 android:gravity="center"
@@ -63,12 +62,12 @@
                 android:padding="30dp"
                 android:textSize="15sp"
                 android:background="#00515e"
-                android:timeZone="Africa/Bo"
+                android:timeZone="America/Baltimore"
                 android:id="@+id/row5" />
             <TextView
                 android:layout_width="140dp"
                 android:layout_height="fill_parent"
-                android:text="Bo"
+                android:text="Baltimore"
                 android:textSize="20sp"
                 android:fontFamily="monospace"
                 android:background="#00515e"
@@ -86,12 +85,12 @@
                 android:layout_height="wrap_content"
                 android:padding="30dp"
                 android:textSize="15sp"
-                android:timeZone="Asia/Dubai"
+                android:timeZone="Africa/Cairo"
                 android:id="@+id/row6" />
             <TextView
                 android:layout_width="140dp"
                 android:layout_height="fill_parent"
-                android:text="Dubai"
+                android:text="Cairo"
                 android:textSize="20sp"
                 android:fontFamily="monospace"
                 android:gravity="center"
